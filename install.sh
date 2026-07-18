@@ -366,7 +366,7 @@ uninstall_existing_iflow() {
         log_info "Uninstalling existing iFlow CLI..."
 
         # Try npm uninstall first
-        if npm uninstall -g @iflow-ai/iflow-cli 2>/dev/null; then
+        if npm uninstall -g @qq849693559/iflow-cli 2>/dev/null; then
             log_success "Successfully uninstalled existing iFlow CLI via npm"
         else
             log_warning "Could not uninstall via npm, trying to remove manually..."
@@ -452,9 +452,9 @@ install_iFlow_cli() {
     log_info "Installing iFlow CLI..."
 
     # Try to install iFlow CLI, handle permission issues
-    if npm i -g @iflow-ai/iflow-cli@latest; then
+    if npm i -g @qq849693559/iflow-cli@latest; then
         log_success "iFlow CLI installed successfully!"
-    elif sudo npm i -g @iflow-ai/iflow-cli@latest 2>/dev/null; then
+    elif sudo npm i -g @qq849693559/iflow-cli@latest 2>/dev/null; then
         log_success "iFlow CLI installed successfully with sudo!"
     else
         log_error "Failed to install iFlow CLI due to permission issues!"
