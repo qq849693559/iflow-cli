@@ -74,7 +74,7 @@ bash -c "$(curl -fsSL https://cloud.iflow.cn/iflow-cli/install.sh)"
 ```
 * Installation avec Node.js
 ```shell
-npm i -g @iflow-ai/iflow-cli
+npm i -g @qq849693559/iflow-cli
 ```
 
 Cette commande installe automatiquement toutes les dépendances nécessaires pour votre terminal.
@@ -83,7 +83,7 @@ Cette commande installe automatiquement toutes les dépendances nécessaires pou
 1. Allez sur https://nodejs.org/fr/download pour télécharger le dernier installateur Node.js
 2. Exécutez l'installateur pour installer Node.js
 3. Redémarrez votre terminal : CMD ou PowerShell
-4. Exécutez `npm install -g @iflow-ai/iflow-cli` pour installer iFlow CLI
+4. Exécutez `npm install -g @qq849693559/iflow-cli` pour installer iFlow CLI
 5. Exécutez `iflow` pour démarrer iFlow CLI
 
 Si vous êtes en Chine continentale, vous pouvez utiliser la commande suivante pour installer iFlow CLI :
@@ -93,12 +93,12 @@ Si vous êtes en Chine continentale, vous pouvez utiliser la commande suivante p
 4. Exécutez `nvm node_mirror https://npmmirror.com/mirrors/node/` et `nvm npm_mirror https://npmmirror.com/mirrors/npm/`
 5. Exécutez `nvm install 22` pour installer Node.js 22
 6. Exécutez `nvm use 22` pour utiliser Node.js 22
-7. Exécutez `npm install -g @iflow-ai/iflow-cli` pour installer iFlow CLI
+7. Exécutez `npm install -g @qq849693559/iflow-cli` pour installer iFlow CLI
 8. Exécutez `iflow` pour démarrer iFlow CLI
 
 ## 🗑️ Désinstallation
 ```shell
-npm uninstall -g @iflow-ai/iflow-cli
+npm uninstall -g @qq849693559/iflow-cli
 ```
 
 ## 🔑 Authentification
@@ -232,7 +232,7 @@ Voici un exemple de fichier de paramètres :
 
 ## 🔄 GitHub Actions
 
-Vous pouvez également utiliser iFlow CLI dans vos workflows GitHub Actions avec l'action maintenue par la communauté : [iflow-cli-action](https://github.com/iflow-ai/iflow-cli-action)
+Vous pouvez également utiliser iFlow CLI dans vos workflows GitHub Actions avec l'action maintenue par la communauté : [iflow-cli-action](https://github.com/qq849693559/iflow-cli-action)
 
 ## 👥 Communication Communautaire
 Si vous rencontrez des problèmes lors de l'utilisation, vous pouvez directement créer des Issues sur la page GitHub.
