@@ -75,13 +75,13 @@ bash -c "$(curl -fsSL https://cloud.iflow.cn/iflow-cli/install.sh)"
 ```
 * Using Homebrew installation
 ```shell
-brew tap iflow-ai/iflow-cli
+brew tap qq849693559/iflow-cli
 brew install iflow-cli
 ```
 
 * Using Node.js installation
 ```shell
-npm i -g @iflow-ai/iflow-cli
+npm i -g @qq849693559/iflow-cli
 ```
 
 This command automatically installs all necessary dependencies for your terminal.
@@ -90,7 +90,7 @@ This command automatically installs all necessary dependencies for your terminal
 1. Go to https://nodejs.org/en/download to download the latest Node.js installer
 2. Run the installer to install Node.js
 3. Restart your terminal: CMD or PowerShell
-4. Run `npm install -g @iflow-ai/iflow-cli` to install iFlow CLI
+4. Run `npm install -g @qq849693559/iflow-cli` to install iFlow CLI
 5. Run `iflow` to start iFlow CLI
 
 If you are in China Mainland, you can use the following command to install iFlow CLI:
@@ -100,12 +100,12 @@ If you are in China Mainland, you can use the following command to install iFlow
 4. Run `nvm node_mirror https://npmmirror.com/mirrors/node/` and `nvm npm_mirror https://npmmirror.com/mirrors/npm/`
 5. Run `nvm install 22` to install Node.js 22
 6. Run `nvm use 22` to use Node.js 22
-7. Run `npm install -g @iflow-ai/iflow-cli` to install iFlow CLI
+7. Run `npm install -g @qq849693559/iflow-cli` to install iFlow CLI
 8. Run `iflow` to start iFlow CLI
 
 ## 🗑️ Uninstall
 ```shell
-npm uninstall -g @iflow-ai/iflow-cli
+npm uninstall -g @qq849693559/iflow-cli
 ```
 
 ## 🔑 Authentication
@@ -239,7 +239,7 @@ Here is a settings demo file:
 
 ## 🔄 GitHub Actions
 
-You can also use iFlow CLI in your GitHub Actions workflows with the community-maintained action: [iflow-cli-action](https://github.com/iflow-ai/iflow-cli-action)
+You can also use iFlow CLI in your GitHub Actions workflows with the community-maintained action: [iflow-cli-action](https://github.com/qq849693559/iflow-cli-action)
 
 ## 🖥️ Graphical Interface
 
