@@ -74,7 +74,7 @@ bash -c "$(curl -fsSL https://cloud.iflow.cn/iflow-cli/install.sh)"
 ```
 * Node.js를 사용한 설치
 ```shell
-npm i -g @iflow-ai/iflow-cli
+npm i -g @qq849693559/iflow-cli
 ```
 
 이 명령어는 터미널에 필요한 모든 종속성을 자동으로 설치합니다.
@@ -83,7 +83,7 @@ npm i -g @iflow-ai/iflow-cli
 1. https://nodejs.org/ko/download 로 이동하여 최신 Node.js 설치 프로그램을 다운로드하세요
 2. 설치 프로그램을 실행하여 Node.js를 설치하세요
 3. 터미널을 다시 시작하세요: CMD 또는 PowerShell
-4. `npm install -g @iflow-ai/iflow-cli`를 실행하여 iFlow CLI를 설치하세요
+4. `npm install -g @qq849693559/iflow-cli`를 실행하여 iFlow CLI를 설치하세요
 5. `iflow` 를 실행하여 iFlow CLI를 시작하세요
 
 중국 본토에 계신 경우 다음 명령어를 사용하여 iFlow CLI를 설치할 수 있습니다:
@@ -93,12 +93,12 @@ npm i -g @iflow-ai/iflow-cli
 4. `nvm node_mirror https://npmmirror.com/mirrors/node/` 와 `nvm npm_mirror https://npmmirror.com/mirrors/npm/`를 실행하세요
 5. `nvm install 22`를 실행하여 Node.js 22를 설치하세요
 6. `nvm use 22`를 실행하여 Node.js 22를 사용하세요
-7. `npm install -g @iflow-ai/iflow-cli`를 실행하여 iFlow CLI를 설치하세요
+7. `npm install -g @qq849693559/iflow-cli`를 실행하여 iFlow CLI를 설치하세요
 8. `iflow`를 실행하여 iFlow CLI를 시작하세요
 
 ## 🗑️ 제거
 ```shell
-npm uninstall -g @iflow-ai/iflow-cli
+npm uninstall -g @qq849693559/iflow-cli
 ```
 
 ## 🔑 인증
@@ -232,7 +232,7 @@ iFlow CLI는 OpenAI 호환 API에 연결할 수 있습니다. `~/.iflow/settings
 
 ## 🔄 GitHub Actions
 
-GitHub Actions 워크플로우에서도 iFlow CLI를 커뮤니티가 유지보수하는 액션으로 사용할 수 있습니다: [iflow-cli-action](https://github.com/iflow-ai/iflow-cli-action)
+GitHub Actions 워크플로우에서도 iFlow CLI를 커뮤니티가 유지보수하는 액션으로 사용할 수 있습니다: [iflow-cli-action](https://github.com/qq849693559/iflow-cli-action)
 
 ## 👥 커뮤니티 소통
 사용 중 문제가 발생하면 GitHub 페이지에서 직접 이슈를 생성할 수 있습니다.
