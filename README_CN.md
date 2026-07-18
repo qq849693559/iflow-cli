@@ -75,7 +75,7 @@ bash -c "$(curl -fsSL https://cloud.iflow.cn/iflow-cli/install.sh)"
 ```
 * 使用Node.js安装
 ```shell
-npm i -g @iflow-ai/iflow-cli
+npm i -g @qq849693559/iflow-cli
 ```
 
 此命令会自动为您的终端安装所有必要的依赖项。
@@ -84,7 +84,7 @@ npm i -g @iflow-ai/iflow-cli
 1. 访问 https://nodejs.org/zh-cn/download 下载最新的 Node.js 安装程序
 2. 运行安装程序来安装 Node.js
 3. 重启终端：CMD 或 PowerShell
-4. 运行 `npm install -g @iflow-ai/iflow-cli` 来安装 iFlow CLI
+4. 运行 `npm install -g @qq849693559/iflow-cli` 来安装 iFlow CLI
 5. 运行 `iflow` 来启动 iFlow CLI
 
 如果您在中国大陆，可以使用以下命令安装 iFlow CLI：
@@ -94,12 +94,12 @@ npm i -g @iflow-ai/iflow-cli
 4. 运行 `nvm node_mirror https://npmmirror.com/mirrors/node/` 和 `nvm npm_mirror https://npmmirror.com/mirrors/npm/`
 5. 运行 `nvm install 22` 来安装 Node.js 22，稍等片刻
 6. 运行 `nvm use 22` 来使用 Node.js 22
-7. 运行 `npm install -g @iflow-ai/iflow-cli` 来安装 iFlow CLI
+7. 运行 `npm install -g @qq849693559/iflow-cli` 来安装 iFlow CLI
 8. 运行 `iflow` 来启动 iFlow CLI
 
 ## 🗑️ 卸载
 ```shell
-npm uninstall -g @iflow-ai/iflow-cli
+npm uninstall -g @qq849693559/iflow-cli
 ```
 
 ## 🔑 身份验证
@@ -233,7 +233,7 @@ iFlow CLI 可以连接任何兼容 OpenAI 的 API。编辑 `~/.iflow/settings.js
 
 ## 🔄 GitHub Actions
 
-您也可以在 GitHub Actions 工作流中使用社区维护的 action：[iflow-cli-action](https://github.com/iflow-ai/iflow-cli-action)
+您也可以在 GitHub Actions 工作流中使用社区维护的 action：[iflow-cli-action](https://github.com/qq849693559/iflow-cli-action)
 
 ## 👥 社区交流
 如果您在使用过程中遇到问题，可以直接在 GitHub 页面上提出 Issues。
