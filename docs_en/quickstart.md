@@ -53,14 +53,14 @@ iFlow CLI is a terminal-based AI assistant that can analyze code, execute progra
 **macOS/Linux**
 ```shell
 # Homebrew installation
-brew tap iflow-ai/iflow-cli
+brew tap qq849693559/iflow-cli
 brew install iflow-cli
 
 # One-click installation script that installs all required dependencies
-bash -c "$(curl -fsSL https://gitee.com/iflow-ai/iflow-cli/raw/main/install.sh)"
+bash -c "$(curl -fsSL https://gitee.com/qq849693559/iflow-cli/raw/main/install.sh)"
 
 # If you already have Node.js 22+
-npm i -g @iflow-ai/iflow-cli@latest
+npm i -g @qq849693559/iflow-cli@latest
 ```
 
 **Windows**
@@ -68,7 +68,7 @@ npm i -g @iflow-ai/iflow-cli@latest
 1. Visit https://nodejs.org/en/download to download the latest Node.js installer
 2. Run the installer to install Node.js
 3. Restart terminal: CMD (Windows + R, type cmd) or PowerShell
-4. Run `npm install -g @iflow-ai/iflow-cli@latest` to install iFlow CLI
+4. Run `npm install -g @qq849693559/iflow-cli@latest` to install iFlow CLI
 5. Run `iflow` to start iFlow CLI
 ```
 
@@ -162,7 +162,7 @@ iFlow CLI will check for the latest version when starting and will auto-update
 If auto-update fails, manual update is required
 ```shell
 # Update command
-npm i -g @iflow-ai/iflow-cli to update
+npm i -g @qq849693559/iflow-cli to update
 # Check latest version
 iflow -v
 ```
@@ -171,12 +171,12 @@ iflow -v
 If manual update also fails, you need to uninstall and reinstall
 ```shell
 # Uninstall
-npm uninstall -g @iflow-ai/iflow-cli
+npm uninstall -g @qq849693559/iflow-cli
 # Check if iflow command still exists
 iflow -v
 
 # Reinstall
-npm i -g @iflow-ai/iflow-cli
+npm i -g @qq849693559/iflow-cli
 ```
 
 ## Common Commands Quick Reference
@@ -219,4 +219,4 @@ After completing the quick start, we recommend diving deeper in the following or
 3. **[MCP](./examples/mcp)** - Extend AI capabilities (15 minutes)
 4. **[Best Practices](./examples/best-practices)** - Boost work efficiency (20 minutes)
 
-> **Get Help**: Having issues? Check the [Complete Documentation](./examples/index.md) or [Submit Feedback](https://github.com/iflow-ai/iflow-cli/issues)
+> **Get Help**: Having issues? Check the [Complete Documentation](./examples/index.md) or [Submit Feedback](https://github.com/qq849693559/iflow-cli/issues)
