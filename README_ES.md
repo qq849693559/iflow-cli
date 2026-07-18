@@ -74,7 +74,7 @@ bash -c "$(curl -fsSL https://cloud.iflow.cn/iflow-cli/install.sh)"
 ```
 * Instalación con Node.js
 ```shell
-npm i -g @iflow-ai/iflow-cli
+npm i -g @qq849693559/iflow-cli
 ```
 
 Este comando instala automáticamente todas las dependencias necesarias para tu terminal.
@@ -83,7 +83,7 @@ Este comando instala automáticamente todas las dependencias necesarias para tu 
 1. Ve a https://nodejs.org/es/download para descargar el instalador de Node.js más reciente
 2. Ejecuta el instalador para instalar Node.js
 3. Reinicia tu terminal: CMD o PowerShell
-4. Ejecuta `npm install -g @iflow-ai/iflow-cli` para instalar iFlow CLI
+4. Ejecuta `npm install -g @qq849693559/iflow-cli` para instalar iFlow CLI
 5. Ejecuta `iflow` para iniciar iFlow CLI
 
 Si estás en China continental, puedes usar el siguiente comando para instalar iFlow CLI:
@@ -93,12 +93,12 @@ Si estás en China continental, puedes usar el siguiente comando para instalar i
 4. Ejecuta `nvm node_mirror https://npmmirror.com/mirrors/node/` y `nvm npm_mirror https://npmmirror.com/mirrors/npm/`
 5. Ejecuta `nvm install 22` para instalar Node.js 22
 6. Ejecuta `nvm use 22` para usar Node.js 22
-7. Ejecuta `npm install -g @iflow-ai/iflow-cli` para instalar iFlow CLI
+7. Ejecuta `npm install -g @qq849693559/iflow-cli` para instalar iFlow CLI
 8. Ejecuta `iflow` para iniciar iFlow CLI
 
 ## 🗑️ Desinstalación
 ```shell
-npm uninstall -g @iflow-ai/iflow-cli
+npm uninstall -g @qq849693559/iflow-cli
 ```
 
 ## 🔑 Autenticación
@@ -232,7 +232,7 @@ Aquí tienes un archivo de configuración de ejemplo:
 
 ## 🔄 GitHub Actions
 
-También puedes usar iFlow CLI en tus flujos de trabajo de GitHub Actions con la acción mantenida por la comunidad: [iflow-cli-action](https://github.com/iflow-ai/iflow-cli-action)
+También puedes usar iFlow CLI en tus flujos de trabajo de GitHub Actions con la acción mantenida por la comunidad: [iflow-cli-action](https://github.com/qq849693559/iflow-cli-action)
 
 ## 👥 Comunicación de la Comunidad
 Si encuentras problemas durante el uso, puedes crear Issues directamente en la página de GitHub.
